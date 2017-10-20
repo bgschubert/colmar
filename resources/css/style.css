@@ -1,0 +1,120 @@
+/*Site Level Style Attributes*/
+
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/DXI1ORHCpsQm3Vp6mXoaTRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/k3k702ZOKiLJc3WVjuplzBampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v15/EInbV5DfGHOiMmvb1Xr-hhampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+html{
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+.flex{
+  display: flex;
+}
+
+
+/*Navbar Styling*/
+
+header {
+  color: #DAEBF2;
+}
+
+
+header .container {
+  height: 64px;
+  top:0;
+  position: fixed;
+  z-index: 5;
+  border-bottom: 1px solid black;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #1CA5B8;
+}
+
+.name {
+  align-items: center;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.colmar {
+  font-weight: 700;
+}
+
+span .academy {
+  font-weight: 100;
+}
+
+
+
+.logo {
+  height: 46px;
+  margin-left: 24px;
+}
+
+nav {
+  position: relative;
+  right: 25px;
+}
+
+ul{
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav li {
+  margin-left: 16px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #DAEBF2;
+}
+
+a:visited {
+  color: black;
+}
