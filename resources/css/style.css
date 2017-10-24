@@ -279,6 +279,8 @@ nav ul li a:visited {
   color: #FF8B2B;
 }
 
+/*Start Learning Styling*/
+
 .learning-section {
   background-color: #DAEBF2;
   max-width: 100%;
@@ -334,4 +336,84 @@ nav ul li a:visited {
   padding: 0 4.5rem;
   justify-content: space-around;
   margin: auto;
+}
+
+/*Thesis Exhibit Section Styling*/
+
+.thesis-section h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+
+.thesis-exhibit {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.left-container {
+  flex-direction: column;
+  width: 60%;
+  margin: 2rem 1.5rem;
+  overflow: hidden;
+}
+
+.left-container video {
+  width: 100%;
+  margin: 0 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.video-details {
+  margin: 0 1.5rem;
+}
+
+.video-details h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+.video-details p {
+  margin-bottom: 2rem;
+}
+
+.right-container {
+  flex-direction: column;
+  width: 40%;
+  padding: 2rem 1.5rem;
+}
+
+.exhibit {
+  width: 100%;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.exhibit:hover {
+  background-color: #DAEBF2;
+}
+
+.exhibit-image {
+  width: 35%;
+}
+
+.exhibit-image img {
+  width: 100%
+  height: auto;
+  margin: 1rem 1rem;
+}
+
+.exhibit-details {
+  margin: 0 1.5rem;
+  width: 65%;
+  padding-left: 3rem;
+}
+
+.exhibit-details h3{
+  font-size: 1.25rem;
+  font-weight: 700;
 }
