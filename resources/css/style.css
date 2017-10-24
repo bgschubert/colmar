@@ -229,7 +229,7 @@ nav ul li a:visited {
   width: 40%;
   margin-top: 2rem;
   margin-right: 1rem;
-  padding-left: 5rem;
+  padding-left: 1rem;
   height: auto;
 }
 
@@ -292,8 +292,9 @@ nav ul li a:visited {
 }
 
 .top-row {
-  margin: 0 4.5rem;
-  justify-content: space-between;
+  padding: 0 4.5rem;
+  justify-content: space-around;
+  margin: auto;
 }
 
 .major {
@@ -301,6 +302,12 @@ nav ul li a:visited {
   margin:2rem;
   background-color: white;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.major:hover {
+  background-color: #1CA5B8;
+  color: #DAEBF2;
 }
 
 .major img {
@@ -323,6 +330,8 @@ nav ul li a:visited {
   padding: .5rem 0;
 }
 
-.major p {
-
+.bottom-row {
+  padding: 0 4.5rem;
+  justify-content: space-around;
+  margin: auto;
 }
