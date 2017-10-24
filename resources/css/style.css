@@ -278,3 +278,51 @@ nav ul li a:visited {
 .story-copy .read-more:hover {
   color: #FF8B2B;
 }
+
+.learning-section {
+  background-color: #DAEBF2;
+  max-width: 100%;
+}
+
+.learning-section h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+
+.top-row {
+  margin: 0 4.5rem;
+  justify-content: space-between;
+}
+
+.major {
+  flex-direction: column;
+  margin:2rem;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.major img {
+  height: auto;
+  overflow: hidden;
+}
+
+.major-copy {
+  padding: 1rem 1rem;
+}
+
+.major-copy h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+.major-copy p {
+  padding: .5rem 0;
+}
+
+.major p {
+
+}
