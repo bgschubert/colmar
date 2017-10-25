@@ -120,6 +120,7 @@ nav ul li a:visited {
 
 .jumbotron {
   background-color: #DAEBF2;
+  height: 45rem;
   max-width: 100%;
 }
 
@@ -140,10 +141,7 @@ nav ul li a:visited {
   margin-left: 1.5rem;
   flex-direction: column;
   align-items: center;
-  padding-top: 10rem;
-  padding-left: 1.5rem;
-  padding-right: 3rem;
-
+  padding: 10rem 2rem;
 }
 
 .headline h1 {
@@ -208,13 +206,13 @@ nav ul li a:visited {
 .main-details h2 {
   font-size: 3rem;
   font-weight: 700;
-  margin-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
 .main-details p {
   font-size: .8rem;
   line-height:1.7;
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .main-details .quote {
@@ -283,7 +281,6 @@ nav ul li a:visited {
 
 .learning-section {
   background-color: #DAEBF2;
-  max-width: 100%;
 }
 
 .learning-section h2 {
@@ -294,17 +291,17 @@ nav ul li a:visited {
 }
 
 .top-row {
-  padding: 0 4.5rem;
-  justify-content: space-around;
+  margin: 0 4.5rem;
+  justify-content: center;
   margin: auto;
 }
 
 .major {
   flex-direction: column;
   margin:2rem;
+  width: 30%;
   background-color: white;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
 }
 
 .major:hover {
@@ -315,6 +312,7 @@ nav ul li a:visited {
 .major img {
   height: auto;
   overflow: hidden;
+  width: 100%;
 }
 
 .major-copy {
@@ -324,17 +322,17 @@ nav ul li a:visited {
 .major-copy h3 {
   font-weight: 700;
   font-size: 1.5rem;
-  margin-top: 1rem;
-  margin-bottom: .5rem;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
 }
 
 .major-copy p {
   padding: .5rem 0;
 }
 
-.bottom-row {
-  padding: 0 4.5rem;
-  justify-content: space-around;
+.top-row {
+  margin: 0 4.5rem;
+  justify-content: center;
   margin: auto;
 }
 
@@ -355,24 +353,24 @@ nav ul li a:visited {
 .left-container {
   flex-direction: column;
   width: 60%;
-  margin: 2rem 1.5rem;
+  padding: 2rem 1.5rem;
   overflow: hidden;
 }
 
 .left-container video {
   width: 100%;
-  margin: 0 1.5rem;
-  margin-bottom: 1.5rem;
+  padding: 0 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .video-details {
-  margin: 0 1.5rem;
+  padding: 0 4rem;
 }
 
 .video-details h3 {
   font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: .5rem;
+  padding-bottom: .5rem;
 }
 
 .video-details p {
@@ -402,13 +400,12 @@ nav ul li a:visited {
 }
 
 .exhibit-image img {
-  width: 100%
+  width: 100%;
   height: auto;
   margin: 1rem 1rem;
 }
 
 .exhibit-details {
-  margin: 0 1.5rem;
   width: 65%;
   padding-left: 3rem;
 }
