@@ -133,12 +133,11 @@ nav ul li a:visited {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 2rem 1.5rem;
+  padding: 2rem 1.5rem;
 }
 
 .headline {
   max-width: 40%;
-  margin-left: 1.5rem;
   flex-direction: column;
   align-items: center;
   padding: 10rem 2rem;
@@ -148,12 +147,14 @@ nav ul li a:visited {
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
+  padding-left: 2rem;
 }
 
 .headline h3 {
   font-size: 1.rem;
   padding-bottom: 10px;
   padding-top: 5px;
+  padding-left: 2rem;
 }
 
 .headline h1, h3{
@@ -165,9 +166,11 @@ nav ul li a:visited {
   margin-top: 10px;
   background-color: #1CA5B8;
   color: #DAEBF2;
-  width: 100%;
+  width: 90%;
   border: none;
   font-size: 1.5rem;
+  position: relative;
+  right: -2.3rem;
   border-radius: 4px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -196,7 +199,7 @@ nav ul li a:visited {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 2rem 1rem;
+  margin: 2rem 1.5rem;
 }
 
 .main-details {
@@ -204,9 +207,9 @@ nav ul li a:visited {
 }
 
 .main-details h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
-  padding-bottom: 3rem;
+  padding-bottom: .5rem;
 }
 
 .main-details p {
