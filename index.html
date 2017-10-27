@@ -15,13 +15,20 @@
     <header><!--Site Header-->
       <div class="flex name-container">
 
-        <div class="flex name">
+        <div class="mobile flex">
+          <a class="mobilenav" href="#"><img src="./resources/images/ic-logo.svg" /></a>
+          <a class="mobilenav" href="#"><img src="./resources/images/ic-on-campus.svg" /></a>
+          <a class="mobilenav" href="#"><img src="./resources/images/ic-online.svg" /></a>
+          <a class="mobilenav" href="#"><img src="./resources/images/ic-login.svg" /></a>
+        </div>
+
+        <div class="flex name desktop">
           <img class="logo" src="./resources/images/ic-logo.svg" alt="Colmar Academy Logo" />
           <span class="colmar">COLMAR</span>
           <span class="academy">ACADEMY</span>
         </div>
 
-        <nav>
+        <nav class="desktop">
           <ul class="nav flex" role="presentation">
             <li><a href="#">On campus</a></li>
             <li><a href="#">Online</a></li>
@@ -215,13 +222,3 @@
         </footer>
       </main>
     </body>
-
-    /*tablet query*/
-    @media only screen and (min-width: 471px) and (max-width: 1024px){
-    }
-
-
-    /*mobile query*/
-
-    @media only screen and (max-width: 470px){
-    }
