@@ -307,11 +307,12 @@ nav ul li a:visited {
 .story-copy h3 {
   font-size: 1.5rem;
   font-weight: 700;
+  padding-left: 1rem;
 }
 
 .story-copy p {
   font-size: .8rem;
-  padding: .3rem 0;
+  padding: .3rem 1rem;
 }
 
 .story-copy .read-more {
@@ -346,11 +347,13 @@ nav ul li a:visited {
 
   .side-story img {
     width: 100%;
+    padding: 0;
+    margin: 0;
   }
 
   .story-copy {
     width: 100%;
-    padding-left: 2rem;
+    padding: 0;
   }
 
   .story-copy h3, p {
